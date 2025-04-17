@@ -1,27 +1,39 @@
-# Python virtual environment
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-venv/ env/
-
-# Flask instance folder
-
-instance/
-
-# Bytecode and cache files
-
-**pycache**/ \*.py\[cod\] \*.pyo
-
-# Environment variables
-
+# Virtual Environment
+venv/
+ENV/
+env/
 .env
 
-# Logs and temporary files
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
 
-\*.log \*.tmp
-
-# IDE-specific files
-
-.idea/ .vscode/
-
-# OS-specific files
-
-.DS_Store Thumbs.db
+# Project specific
+*.log
+*.sqlite
+*.db
