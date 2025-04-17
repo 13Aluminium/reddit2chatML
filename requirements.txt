@@ -3,3 +3,4 @@ praw
 python-dotenv
 gunicorn
 tiktoken
+pandas
